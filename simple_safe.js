@@ -53,7 +53,8 @@ function authorize() {
             version: "1.0.0",
             vendor:  "your_name",
             id: "your_app_id"
-        }
+        },
+        permissions: ["SAFE_DRIVE_ACCESS"]
     };
 
     // Send the request
